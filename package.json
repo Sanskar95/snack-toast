@@ -1,0 +1,29 @@
+{
+  "name": "simple-toast-notification",
+  "version": "1.0.0",
+  "description": "Configurable react toast notifications",
+  "main": "./src/export.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanskar95/snack-toast.git"
+  },
+  "watch": {
+    "build-package": "src/"
+  },
+  "author": "Sanskar Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanskar95/snack-toast/issues"
+  },
+  "homepage": "https://github.com/Sanskar95/snack-toast#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.9.7",
+    "@material-ui/icons": "^4.9.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
