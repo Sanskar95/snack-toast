@@ -2,10 +2,15 @@
   "name": "simple-toast-notification",
   "version": "1.0.1",
   "description": "Configurable react toast notifications",
-  "main": "./src/export.js",
+  "main": "./dist/export.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build"
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src -d dist --copy-files"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
   },
   "repository": {
     "type": "git",
@@ -21,9 +26,14 @@
   },
   "homepage": "https://github.com/Sanskar95/snack-toast#readme",
   "dependencies": {
+    "@babel/core": "^7.9.0",
     "@material-ui/core": "^4.9.7",
     "@material-ui/icons": "^4.9.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/preset-react": "^7.9.1"
   }
 }
