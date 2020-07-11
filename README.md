@@ -14,7 +14,7 @@ To be able to use the component, follow the steps below:
 `import { snackToast } from 'simple-toast-notification'`
 
 ## API
- There are 4 methods under the datalabToast API.
+ There are 4 methods under the snackToast API.
  1) success
  2) error
  3) warning
