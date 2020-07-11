@@ -1,1 +1,1 @@
-export { apexToast } from "./apexToast";
+export { snackToast } from "./snackToast";
